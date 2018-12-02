@@ -13,7 +13,7 @@
   </thead>
 
   <tbody>
-    <% @comments.each do |comment| %>
+    <% @comments.reverse.each do |comment| %>
       <tr>
         <td><%= comment.user_name %></td>
         <td><%= comment.body %></td>
