@@ -1,7 +1,6 @@
 
-
 .col-md-4 {
-  background-color: #E8EEF2;
+  background-color: #fff;
   margin-bottom: 45px;
   padding: 5px 5px;
   box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.2);
@@ -18,4 +17,30 @@
 }
 p.navbar-text.pull-right strong {
   color: #77B6EA;
+}
+footer p {
+  color: #000;
+  text-align: center;
+  line-height: 6px;
+  font-size: 0.6em;
+}
+
+@media only screen and (max-width: 450px) {
+
+    .col-md-4 {
+      width: 270px;
+      left: 10%;
+    }
+    footer p {
+      color: #000;
+      text-align: center;
+      line-height: 6px;
+      font-size: 0.6em;
+    }
+    div.footer_text.container {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto;
+}
 }
