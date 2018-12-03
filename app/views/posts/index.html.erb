@@ -1,12 +1,11 @@
-<h1>Jam Post</h1>
 
 <% @posts.reverse.in_groups_of(3) do |groups| %>
   <div class="row">
     <% groups.compact.each do |post| %>
       <div class="col-md-4">
-        <%= image_tag post.picture_url, width: '50%' if post.picture.present? %>
+        <%= image_tag post.picture_url, width: '100%', height: '80%' if post.picture.present? %>
         <!---makeing the images to thumbnails --->
-        <%# <%= image_tag post.picture_url(:thumb) if post.picture.present? %> %>
+        <!-- image_tag post.picture_url(:thumb) if post.picture.present? --->
         <h4><%= link_to post.title, post %></h4>
         <%= post.description %>
       </div>

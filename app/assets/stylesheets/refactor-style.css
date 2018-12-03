@@ -1,0 +1,21 @@
+
+
+.col-md-4 {
+  background-color: #E8EEF2;
+  margin-bottom: 45px;
+  padding: 5px 5px;
+  box-shadow: 5px 5px 2px 0px rgba(0,0,0,0.2);
+  border-radius: 2px;
+  width: 50%;
+  height: 300px;
+}
+.navbar-brand {
+  font-family: 'Bungee Inline', cursive;
+  color: #77B6EA;
+}
+.navbar-default .navbar-brand {
+  color: #77B6EA;
+}
+p.navbar-text.pull-right strong {
+  color: #77B6EA;
+}
